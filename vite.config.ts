@@ -19,5 +19,5 @@ export default defineConfig({
     host: true,
     port: 5173
   },
-  base: "/portfolio/dist"
+  base: "/portfolio2"
 })
