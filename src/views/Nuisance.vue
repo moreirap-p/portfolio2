@@ -1,0 +1,40 @@
+<script setup lang="ts">
+import BoutonRetour from '@/components/BoutonRetour.vue';
+
+</script>
+
+<template>
+<main id="bg-11">
+    <div class="box extra-tp-margin">
+        <h2>Réalisations - Portail sur la nuisance moustique
+            <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript"><img class="mini-logo" src="/images/js.webp" alt="js" title="JavaScript"></a>
+            <a href="https://vuejs.org/"><img class="mini-logo" src="/images/vuejs.webp" alt="vuejs" title="VueJS"></a>
+            <a href="https://vuex.vuejs.org/"><img class="mini-logo" src="/images/vuex.webp" alt="vuex" title="VueX"></a>
+            <a href="https://www.java.com/en/download/help/whatis_java.html"><img class="mini-logo" src="/images/java.webp" alt="java" title="Java"></a>
+        </h2>
+        <p>Dans le contexte d'un stage de 8 semaines chez <a href="https://www.geomatys.com/"><b>Geomatys</b></a>, j'ai dû améliorer la partie front-end (en JavaScript) d'un site web.</p>
+        <p>Celui-ci est utilisé en interne par l'<a href="https://www.eid-med.org/"><b>Entente Interdépartemental de Démoustication du littoral Méditerranéen</b></a> (ou EID) pour facilement créer des bulletins par zones sur le risque <span class="trans">(pour les humains)</span> de divers éspèces de moustiques, et par extension choisir ou non d'intervenir dans cette zone.</p>
+        <p>La page principale du site est composée d'une carte interactive qui fonctionne avec la librairie <a href="https://openlayers.org/"><b>OpenLayers</b></a> pour gérer les différentes couches <span class="trans">(= images)</span> que l'on peut superposer à cette carte, dont l'indicateur du risque <span class="trans">(image 2)</span>.</p>
+
+        <p>L'une de mes principales missions fut de corriger / nettoyer le code existant, celui-ci avait beaucoup de problèmes: un non-respect des normes de nommage, de la duplication de code et parfois de fichiers entiers, ainsi que de nombreuses actions obsolètes / redondantes, ce qui empêche grandement l'actualisation du site.</p>
+        <p>L'autre finalité des missions était d'améliorer l'expérience utilisateur par une interface plus lisible, et avec plus d'options pour trier les informations (que ce soit sur la carte comme en dehors).</p>
+
+        <hr class="dashed">
+        <h2>Galerie</h2>
+        <div class="horizontal long-imgs">
+            <a href="public/images/nuisance-0.webp"><img class="pic-large" src="/images/nuisance-0.webp" alt="nuisance-pagination&filtrage"></a>
+            <a href="public/images/nuisance-1.webp"><img class="pic-large" src="/images/nuisance-1.webp" alt="nuisance-carte"></a>
+        </div>
+        <div class="extra-tp-margin">
+            <span class="trans-plus">(pour des raisons de confidentialité, je ne peut pas montrer beaucoup d'images)</span>
+        </div>
+
+        <hr class="dashed">
+        <h2>Apprentissage</h2>
+        <p>Étant donné qu'il s'agissait de mon premier projet en entreprise, j'ai vu des choses assez variées:  la notion de <b>module</b> dans VueJS, de <b>store</b> avec Vuex, les APIs REST <span class="trans">(en plus de voir ce qu'est concrètement une API)</span>, l'utilisation de volumes docker, et l'écriture de requêtes SQL avec <a href="https://www.jooq.org/"><b>JOOQ</b></a> (entre autres).</p>
+
+    </div>
+
+    <BoutonRetour/>
+</main>
+</template>

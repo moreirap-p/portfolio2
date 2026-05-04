@@ -1,0 +1,396 @@
+/** MISE EN PAGE **/
+
+body, html { 
+    scroll-behavior: smooth;   
+    font-family: Helvetica, sans-serif;
+
+    /* fix anti trucs bizarres par défaut de certains navigateurs*/
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+}
+
+#bg-acceuil {
+    background: linear-gradient(0deg, #a4a47b 0%,#a79476 12.5%, #967c72 25%, #a7767e 37.5%, #96728c 50%, #9f76a7 62.5%, #7e6897 75%, #8899b6 90%, #b4d8d8 100%);
+}
+
+#bg-0 {
+    background: linear-gradient(0deg, #635370 0%,#4a506a 74%);
+}
+
+#bg-1 {
+    background: linear-gradient(0deg, #6d815f 0%,#c9965b 100%);
+}
+
+#bg-2 {
+    background: linear-gradient(0deg, #70b8bf 0%,#5b78c9 100%);
+}
+
+#bg-4 {
+    background: linear-gradient(0deg, #642465 0%,#4d1c4d 100%);
+}
+
+#bg-5 {
+    background: linear-gradient(0deg, #E7D2D0 0%,#DF787F 100%);
+}
+#bg-6 {
+    background: linear-gradient(0deg, #F3E1CF 0%,#F6CCA3 100%);
+}
+#bg-7 {
+    background: linear-gradient(0deg, #F4E8B4 0%,#F7E371 100%);
+}
+#bg-8 {
+    background: linear-gradient(0deg, #E0E7D5 0%,#CCE8A3 100%);
+}
+#bg-9 {
+    background: linear-gradient(0deg, #C8D7EA 0%,#3F75A2 100%);
+}
+#bg-10 {
+    background: linear-gradient(0deg, #D5D0BB 0%,#868384 100%);
+}
+
+#bg-11 {
+    background: linear-gradient(0deg, #FEE59C 0%,#AAD3DF 100%);
+}
+
+#bg-12 {
+    background: linear-gradient(0deg, #FFD0B8 0%,#FFA5C9 100%);
+}
+
+main p {
+    text-align: left;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+.box {
+    background: linear-gradient(0deg, #F0F0F0 0%, #FFF 64%);
+    margin: 1% 10%;
+}
+
+.dashed {
+    border-top: 2px dashed;
+    opacity: 20%;
+}
+
+a {
+    color: #690069;
+    text-decoration: none;
+}
+
+.box a:hover {
+    text-decoration: underline;
+    color: #970097;
+}
+
+a:hover, .mini-logo:hover, #reals:hover, nav img:hover {
+    transform: scale(1.04);
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.job {
+    background: rgba(99, 99, 99, 0.1);
+    overflow: hidden;
+}
+
+.job > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal p {
+    width: 100%;
+}
+
+#lien-retour {
+    color: white;
+    margin: 20px auto;
+    max-width: 7rem;
+    display: block;
+    background-color: #232F3E;
+    padding: 10px;
+}
+
+#lien-retour:hover {
+    background-color: #414e5d;
+    text-decoration: none;
+}
+
+
+/** IMAGES **/
+
+.shadow, .box {
+    filter: drop-shadow(0 0 0.27rem rgba(0, 0, 0, 0.19));
+}
+
+.pic, .pic-large {
+    filter: drop-shadow(0 0 0.29rem rgba(0, 0, 0, 0.4));
+}
+
+.pic {
+    max-width: 10rem;
+    max-height: 10rem;
+    margin: 2%;
+}
+
+.pic-large {
+    max-width: 14rem;
+    max-height: 14rem;
+    margin: 2% 0;
+}
+
+.mini-logo {
+    width: 2rem;
+    height: 2rem;
+    vertical-align: middle;
+    margin-right: 14px;
+}
+
+.medium {
+    max-width: 7rem;
+    max-height: 7rem;
+}
+
+#ndi {
+    filter: drop-shadow(0 -0.5rem 1.82rem rgb(0, 0, 0));
+}
+
+
+/** FOOTER **/
+
+footer {
+    background: linear-gradient(180deg, #413e3c 0%, #2a2827 100%);
+    padding: 0.5% 10% 0.5% 10%;
+    color: white;
+}
+
+#bas-de-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer img {
+    height: 2rem;
+    width: 2rem;
+    margin-left: 6px;
+}
+
+footer span, footer img {
+    vertical-align: middle;
+}
+
+/** MENU DEROULANT **/
+
+header {
+    top: 0;
+    position: sticky;
+    z-index: 99;
+}
+
+nav {
+    display: flex;
+    padding: 0;
+    background-color: #000000;
+    justify-content: center;
+}
+
+nav a, #reals, nav img {
+    display:block;
+    margin: 0.8rem;
+    padding: 0.6rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 2px;
+    filter: none;
+}
+
+.cmd {
+    padding: 10px;
+    background-color: #000;
+    color: #fc7;
+}
+
+nav a, #reals {
+    min-width: 120px;
+}
+
+nav img {
+    width: 2ch;
+    height: 2ch;
+}
+
+.submenu {
+    position: absolute;
+    display: none;
+}
+
+.submenu-parent:hover div.submenu {
+    background-color: black;
+    display: block;
+}
+
+nav a:hover, #reals:hover, nav img:hover {
+    background-color: black;
+    color: white;
+    filter: drop-shadow(0 0 0.5rem rgba(204, 189, 93, 0.74));
+}
+
+.current-page, #reals.current-page {
+    color: goldenrod;
+    background-color: #444;
+}
+
+#reals {
+    display: none;
+}
+
+
+/** RESPONSIVE **/
+
+@media screen and (max-width: 1248px) {
+    .long-imgs {
+        display: inline-block;
+    }
+
+    .pic-large {
+        margin: 2%;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    nav a, #reals, nav img {
+        margin-left: 0.4rem;
+        margin-right: 0.4rem;
+    }
+
+    #reals {
+        display: block;
+    }
+
+    .reduisible {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 962px) {
+    .box {
+        margin-left: 4.5%;
+        margin-right: 4.5%;
+    }
+
+    .reduisible-thiner {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .box {
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 0 !important;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .horizontal {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .horizontal p {
+        width: auto;
+    }
+
+    #pualo {
+        align-self: center;
+    }
+
+    .not-on-mobile {
+        display: none;
+    }
+}
+
+
+/** Ajustementes Prioritaires **/
+
+.no-bt-margin {
+    margin-bottom: 0;
+}
+
+.extra-tp-margin {
+    margin-top: 2%;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.rounded, .box {
+    border-radius: 4px;
+}
+
+.round {
+    border-radius: 100%;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.trans {
+    opacity: 69%;
+}
+
+.trans-plus {
+    opacity: 49%;
+}
+
+nav a, #reals, nav img, #lien-retour {
+    transition: all 104ms ease;
+}
+
+.force-block {
+    display:grid;
+}
+
+
+/** Dark Mode **/
+
+.dark-mode .box {
+    color: white;
+    background: linear-gradient(0deg, #000 0%, #0F0F0F 64%);
+}
+
+.dark-mode main a {
+    color: #FF81FF;
+}
+
+.dark-mode .cmd {
+    color: #000;
+    background-color: #fff;
+}

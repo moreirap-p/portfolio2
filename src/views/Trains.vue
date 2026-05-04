@@ -1,0 +1,51 @@
+<script setup lang="ts">
+import BoutonRetour from '@/components/BoutonRetour.vue';
+
+</script>
+
+<template>
+<main id="bg-2">
+    <div class="box extra-tp-margin">
+      <img class="pic-large no-bt-margin not-on-mobile" src="/images/trains.webp" alt="logo-trains">
+
+      <h1 class="no-bt-margin">Réalisations - TRAINS</h1>
+      <p>Dans le contexte d'une SAE <span class="trans">(Situation d'Apprentissage et Évaluation)</span> de l'IUT, nous avons dû reproduire en Java le jeu de cartes/plateau: <a href="public/pdfs/regles_trains.pdf"><b>TRAINS</b></a>, créé par <a href="https://boardgamegeek.com/boardgamedesigner/39436/hisashi-hayashi"><b>Hisashi Hayashi</b></a>.</p>
+      <div class="horizontal">
+        <div>
+          <p>Ce projet a été fait en binôme, avec l'aide d'<b>Hicham Ferhani</b>:</p>
+        </div>
+
+        <a href="https://www.linkedin.com/in/hicham-ferhani/"><img class="pic round medium" src="/images/hicham.webp" alt="linkedin-hicham"></a>
+      </div>  
+    
+      <p>La réalisation a été divisée en 3 phases:</p>
+    </div>
+    
+    <div class="box">
+      <h2>Phase 1: Java <a href="https://www.java.com/en/download/help/whatis_java.html"><img class="mini-logo" src="/images/java.webp" alt="java" title="Java"></a> <span class="trans-plus italic">(1 mois)</span></h2>
+      <p>Tout d'abord, la partie <b>back-end</b> a dû être faite à partir de classes vides & d'une interface utilisateur pré-faite. Cela inclut le système de tours de joueurs, de divers points, le fonctionnement de chaque carte, du plateau, etc....</p>
+      <p>Je me suis principalement occupé de la gestion du score, de l'argent, du placement des gares et d'une partie des cartes.</p>
+      
+
+      <hr class="dashed">
+      <h2>Phase 2: Graphes <a href="https://www.java.com/en/download/help/whatis_java.html"><img class="mini-logo" src="/images/java.webp" alt="dijkstra"></a> <span class="trans-plus italic">(1 mois)</span></h2>
+      <p>Ensuite, une version corrigée de la première partie nous à été donnée, nous devions maintenant élaborer des algorithmes tels de que celui de <a href="https://fr.wikipedia.org/wiki/Algorithme_de_Dijkstra"><b>Dijkstra</b></a> afin d'optimiser le plus possible les calculs fait pour placer des tuiles sur le plateau.</p>
+
+      <hr class="dashed">
+      <h2>Phase 3: IHM <a href="https://openjfx.io/"><img class="mini-logo" src="/images/javafx.webp" alt="javaFX" title="JavaFX"></a><a href="https://gluonhq.com/products/scene-builder/"><img class="mini-logo" src="/images/scenebuilder.webp" alt="scenebuilder" title="SceneBuilder"></a> <span class="trans-plus italic">(2 semaines)</span></h2>
+      <p>Enfin, cette dernière partie consiste à réaliser une interface graphique entièrement en <b>JavaFX</b>, ce qui inclut des animations basiques et des fenêtres responsives grâce à des écouteurs.</p>
+      <div class="horizontal long-imgs">
+        <a href="public/images/trains_1.PNG"><img class="pic-large" src="/images/trains_1.PNG" alt="trains-ihm"></a>
+        <a href="public/images/trains_2.PNG"><img class="pic-large" src="/images/trains_2.PNG" alt="trains-ihm"></a>
+        <a href="public/images/trains_4.PNG"><img class="pic-large" src="/images/trains_4.PNG" alt="trains-ihm"></a>
+      </div>
+
+      <hr class="dashed">
+      <h2>Apprentissage</h2>
+      <p>Ce projet m'a surtout aidé à renforcer mes compétences en développement orienté objet, en tests unitaires, ainsi qu'en théorie des graphes et algorithmes récursifs. Il fut aussi mon premier "vrai" usage de projet versioné (sur <a href="https://about.gitlab.com/"><b>GitLab</b></a>).</p>
+    </div>
+
+    <BoutonRetour/>
+
+  </main>
+</template>
