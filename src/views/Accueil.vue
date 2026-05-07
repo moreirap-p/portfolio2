@@ -2,7 +2,7 @@
 import BoutonRetour from '@/components/BoutonRetour.vue';
 import { ref } from 'vue';
 
-const today = (new Date()).toLocaleDateString("fr-FR", {day: "numeric", month: "long", year: "numeric"})
+//const today = (new Date()).toLocaleDateString("fr-FR", {day: "numeric", month: "long", year: "numeric"})
 const titles =
     ["Paulo","Pualo","encore Paulo","toujours Paulo","Polo","Paul","lui","lui ?","oui, lui","lui là",
         "Pablo","bon arrêtes.","svp.","stp.","(-_-)","...."]
@@ -40,12 +40,12 @@ function colour(event) {
     <main id="bg-acceuil">
     <div class="box extra-tp-margin">
       <h1 class="no-bt-margin">Portfolio 2024/2026 - Paulo Moreira</h1>
-      <span class="italic trans">dernière mise à jour le {{ today }}</span>
+      <span class="italic trans">dernière mise à jour le 7 mai 2026</span>
       <hr class="dashed">
       <div class="horizontal">
         <div>
           <p><b>À propos de moi:</b></p>
-          <p>Étudiant de 21 ans, passionné par l'informatique, la musique, les jeux vidéos, et l'audio-visuel en général.</p>
+          <p>Étudiant de 22 ans, passionné par l'informatique, la musique, les jeux vidéos, et l'audio-visuel en général.</p>
           <p>Je suis actuellement en dernière année de BUT informatique option RACDV.</p>
           <a target="_blank" href="public/pdfs/MoreiraPereira-CV git.pdf"><b>télécharger mon CV</b></a>
         </div>
@@ -56,11 +56,7 @@ function colour(event) {
     </div>
 
     <div class="box">
-      <!--
-      <h2>Bilan des apprentissages</h2>
-      <a href="comp.html">lien vers la page "Portfolio d'apprentissage" (pour le semestre 6)</a>
-      <hr class="dashed">
-      -->
+      
       <h2>Biographie</h2>
       <p>Durant l'été 2023, j'ai obtenu mon <b>Baccalauréat STI2D</b> (spécialité SIN) au <a href="https://dhuoda.mon-ent-occitanie.fr/">lycée Dhuoda</a>. J'y ai appris les bases de l'électronique et de la <b>programmation embarquée</b>, notamment avec les technologies <a href="https://www.arduino.cc/"><b>Arduino</b></a>, et le <a href="https://www.python.org/"><b>Python</b></a>.</p>
       <p>Cela fait quasiment 3 ans que je suis en <b>BUT informatique</b> à <a href="https://iut-montpellier-sete.edu.umontpellier.fr/">l'IUT de Montpellier-Sète</a>. J'ai pû apprendre les notions de <b>développement efficace</b> et <b>orienté objet</b> en back-end, et d'<b>interface utilisateur</b> ergonomique en front-end. J'ai principalement travaillé en <a href="https://www.java.com/en/download/help/whatis_java.html"><b>Java</b></a>, en <a href="https://fr.wikipedia.org/wiki/C_(langage)">C</a>, et découvert les OS <a href="https://www.linux.org/pages/download/"><b>Linux</b></a> durant la première année,
