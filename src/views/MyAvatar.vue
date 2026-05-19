@@ -31,10 +31,10 @@ import ProfileLink from '@/components/ProfileLink.vue';
       <hr class="dashed">
       <h2>Galerie</h2>
       <div class="horizontal long-imgs">
-        <a href="public/images/ma-0.png"><img class="pic-large" src="/images/ma-0.png" alt="myavatar-accueil"></a>
-        <a href="public/images/ma-1.png"><img class="pic-large" src="/images/ma-1.png" alt="myavatar-page-utilisateur"></a>
-        <a href="public/images/ma-2.png"><img class="pic-large" src="/images/ma-2.png" alt="myavatar-msg-flash"></a>
-        <a href="public/images/ma-4.png"><img class="pic-large" src="/images/ma-4.png" alt="myavatar-commandes"></a>
+        <a href="images/ma-0.png"><img class="pic-large" src="/images/ma-0.png" alt="myavatar-accueil"></a>
+        <a href="images/ma-1.png"><img class="pic-large" src="/images/ma-1.png" alt="myavatar-page-utilisateur"></a>
+        <a href="images/ma-2.png"><img class="pic-large" src="/images/ma-2.png" alt="myavatar-msg-flash"></a>
+        <a href="images/ma-4.png"><img class="pic-large" src="/images/ma-4.png" alt="myavatar-commandes"></a>
       </div>
 
       <hr class="dashed">

@@ -22,8 +22,8 @@ import BoutonRetour from '@/components/BoutonRetour.vue';
         <hr class="dashed">
         <h2>Galerie</h2>
         <div class="horizontal long-imgs">
-            <a href="public/images/nuisance-0.webp"><img class="pic-large" src="/images/nuisance-0.webp" alt="nuisance-pagination&filtrage"></a>
-            <a href="public/images/nuisance-1.webp"><img class="pic-large" src="/images/nuisance-1.webp" alt="nuisance-carte"></a>
+            <a href="images/nuisance-0.webp"><img class="pic-large" src="/images/nuisance-0.webp" alt="nuisance-pagination&filtrage"></a>
+            <a href="images/nuisance-1.webp"><img class="pic-large" src="/images/nuisance-1.webp" alt="nuisance-carte"></a>
         </div>
         <div class="extra-tp-margin">
             <span class="trans-plus">(pour des raisons de confidentialité, je ne peut pas montrer beaucoup d'images)</span>

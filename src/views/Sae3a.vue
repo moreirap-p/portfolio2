@@ -34,10 +34,10 @@ import ProfileLink from '@/components/ProfileLink.vue';
       <hr class="dashed">
       <h2>Galerie</h2>
       <div class="horizontal long-imgs">
-        <a href="public/images/sae3a-0.PNG"><img class="pic-large" src="/images/sae3a-0.PNG" alt="sae3a-interface"></a>
-        <a href="public/images/sae3a-1.PNG"><img class="pic-large" src="/images/sae3a-1.PNG" alt="sae3a-interface"></a>
-        <a href="public/images/sae3a-2.PNG"><img class="pic-large" src="/images/sae3a-2.PNG" alt="sae3a-interface"></a>
-        <a href="public/images/sae3a-4.PNG"><img class="pic-large" src="/images/sae3a-4.PNG" alt="sae3a-interface"></a>
+        <a href="images/sae3a-0.PNG"><img class="pic-large" src="/images/sae3a-0.PNG" alt="sae3a-interface"></a>
+        <a href="images/sae3a-1.PNG"><img class="pic-large" src="/images/sae3a-1.PNG" alt="sae3a-interface"></a>
+        <a href="images/sae3a-2.PNG"><img class="pic-large" src="/images/sae3a-2.PNG" alt="sae3a-interface"></a>
+        <a href="images/sae3a-4.PNG"><img class="pic-large" src="/images/sae3a-4.PNG" alt="sae3a-interface"></a>
       </div>
 
       <hr class="dashed">

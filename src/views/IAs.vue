@@ -33,10 +33,10 @@ import ProfileLink from '@/components/ProfileLink.vue';
       <hr class="dashed">
       <h2>Galerie</h2>
       <div class="horizontal long-imgs">
-        <a href="public/images/ia-0.png"><img class="pic-large" src="/images/ia-0.png" alt="ia-policy-evaluation"></a>
-        <a href="public/images/ia-1.png"><img class="pic-large" src="/images/ia-1.png" alt="ia-mountain-car"></a>
-        <a href="public/images/ia-2.png"><img class="pic-large" src="/images/ia-2.png" alt="ia-sarsa"></a>
-        <a href="public/images/ia-4.png"><img class="pic-large" src="/images/ia-4.png" alt="ia-sarsa2"></a>
+        <a href="images/ia-0.png"><img class="pic-large" src="/images/ia-0.png" alt="ia-policy-evaluation"></a>
+        <a href="images/ia-1.png"><img class="pic-large" src="/images/ia-1.png" alt="ia-mountain-car"></a>
+        <a href="images/ia-2.png"><img class="pic-large" src="/images/ia-2.png" alt="ia-sarsa"></a>
+        <a href="images/ia-4.png"><img class="pic-large" src="/images/ia-4.png" alt="ia-sarsa2"></a>
       </div>
 
       <hr class="dashed">

@@ -32,10 +32,10 @@ import ProfileLink from '@/components/ProfileLink.vue';
       <hr class="dashed">
       <h2>Galerie</h2>
       <div class="horizontal long-imgs">
-        <a href="public/images/ndi-0.webp"><img class="pic-large" src="/images/ndi-0.webp" alt="nuitdelinfo-interface"></a>
-        <a href="public/images/ndi-1.webp"><img class="pic-large" src="/images/ndi-1.webp" alt="nuitdelinfo-interface"></a>
-        <a href="public/images/ndi-2.webp"><img class="pic-large" src="/images/ndi-2.webp" alt="nuitdelinfo-indications"></a>
-        <a href="public/images/ndi-4.webp"><img class="pic-large" src="/images/ndi-4.webp" alt="nuitdelinfo-photo-groupe"></a>
+        <a href="images/ndi-0.webp"><img class="pic-large" src="/images/ndi-0.webp" alt="nuitdelinfo-interface"></a>
+        <a href="images/ndi-1.webp"><img class="pic-large" src="/images/ndi-1.webp" alt="nuitdelinfo-interface"></a>
+        <a href="images/ndi-2.webp"><img class="pic-large" src="/images/ndi-2.webp" alt="nuitdelinfo-indications"></a>
+        <a href="images/ndi-4.webp"><img class="pic-large" src="/images/ndi-4.webp" alt="nuitdelinfo-photo-groupe"></a>
       </div>
 
       <a href="https://github.com/Doruo/NDI-2024-RaceForWater">dépôt GitHub</a>

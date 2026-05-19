@@ -9,7 +9,7 @@ import BoutonRetour from '@/components/BoutonRetour.vue';
       <img class="pic-large no-bt-margin not-on-mobile" src="/images/trains.webp" alt="logo-trains">
 
       <h1 class="no-bt-margin">Réalisations - TRAINS</h1>
-      <p>Dans le contexte d'une SAE <span class="trans">(Situation d'Apprentissage et Évaluation)</span> de l'IUT, nous avons dû reproduire en Java le jeu de cartes/plateau: <a href="public/pdfs/regles_trains.pdf"><b>TRAINS</b></a>, créé par <a href="https://boardgamegeek.com/boardgamedesigner/39436/hisashi-hayashi"><b>Hisashi Hayashi</b></a>.</p>
+      <p>Dans le contexte d'une SAE <span class="trans">(Situation d'Apprentissage et Évaluation)</span> de l'IUT, nous avons dû reproduire en Java le jeu de cartes/plateau: <a href="pdfs/regles_trains.pdf"><b>TRAINS</b></a>, créé par <a href="https://boardgamegeek.com/boardgamedesigner/39436/hisashi-hayashi"><b>Hisashi Hayashi</b></a>.</p>
       <div class="horizontal">
         <div>
           <p>Ce projet a été fait en binôme, avec l'aide d'<b>Hicham Ferhani</b>:</p>
@@ -35,9 +35,9 @@ import BoutonRetour from '@/components/BoutonRetour.vue';
       <h2>Phase 3: IHM <a href="https://openjfx.io/"><img class="mini-logo" src="/images/javafx.webp" alt="javaFX" title="JavaFX"></a><a href="https://gluonhq.com/products/scene-builder/"><img class="mini-logo" src="/images/scenebuilder.webp" alt="scenebuilder" title="SceneBuilder"></a> <span class="trans-plus italic">(2 semaines)</span></h2>
       <p>Enfin, cette dernière partie consiste à réaliser une interface graphique entièrement en <b>JavaFX</b>, ce qui inclut des animations basiques et des fenêtres responsives grâce à des écouteurs.</p>
       <div class="horizontal long-imgs">
-        <a href="public/images/trains_1.PNG"><img class="pic-large" src="/images/trains_1.PNG" alt="trains-ihm"></a>
-        <a href="public/images/trains_2.PNG"><img class="pic-large" src="/images/trains_2.PNG" alt="trains-ihm"></a>
-        <a href="public/images/trains_4.PNG"><img class="pic-large" src="/images/trains_4.PNG" alt="trains-ihm"></a>
+        <a href="images/trains_1.PNG"><img class="pic-large" src="/images/trains_1.PNG" alt="trains-ihm"></a>
+        <a href="images/trains_2.PNG"><img class="pic-large" src="/images/trains_2.PNG" alt="trains-ihm"></a>
+        <a href="images/trains_4.PNG"><img class="pic-large" src="/images/trains_4.PNG" alt="trains-ihm"></a>
       </div>
 
       <hr class="dashed">
