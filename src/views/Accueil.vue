@@ -40,14 +40,14 @@ function colour(event) {
     <main id="bg-acceuil">
     <div class="box extra-tp-margin">
       <h1 class="no-bt-margin">Portfolio 2024/2026 - Paulo Moreira</h1>
-      <span class="italic trans">dernière mise à jour le 7 mai 2026</span>
+      <span class="italic trans">dernière mise à jour le 19 mai 2026</span>
       <hr class="dashed">
       <div class="horizontal">
         <div>
           <p><b>À propos de moi:</b></p>
           <p>Étudiant de 22 ans, passionné par l'informatique, la musique, les jeux vidéos, et l'audio-visuel en général.</p>
           <p>Je suis actuellement en dernière année de BUT informatique option RACDV.</p>
-          <a target="_blank" href="public/pdfs/MoreiraPereira-CV git.pdf"><b>télécharger mon CV</b></a>
+          <a target="_blank" href="pdfs/MoreiraPereira-CV_git.pdf"><b>télécharger mon CV</b></a>
         </div>
 
         <img id="pualo" class="pic round" src="/images/paulo.webp" :title="title" alt="photo" @mouseenter="nextTitle" @click="colour" :style="{ filter: filterStyle }">

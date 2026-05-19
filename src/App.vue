@@ -1,4 +1,5 @@
 <template>
+  <!--  Hey, I see you! -->
   <header>
     <nav>
       <div><RouterLink :to="{name: 'accueil'}" :class="{ 'current-page': route.name === 'accueil' }">Accueil</RouterLink></div>
