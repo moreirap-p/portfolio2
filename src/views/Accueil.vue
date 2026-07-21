@@ -40,7 +40,7 @@ function colour(event) {
     <main id="bg-acceuil">
     <div class="box extra-tp-margin">
       <h1 class="no-bt-margin">Portfolio 2024/2026 - Paulo Moreira</h1>
-      <span class="italic trans">dernière mise à jour le 19 mai 2026</span>
+      <span class="italic trans">dernière mise à jour le 21 juillet 2026</span>
       <hr class="dashed">
       <div class="horizontal">
         <div>
