@@ -26,7 +26,7 @@ import BoutonRetour from '@/components/BoutonRetour.vue';
             <a href="images/nuisance-1.webp"><img class="pic-large" src="/images/nuisance-1.webp" alt="nuisance-carte"></a>
         </div>
         <div class="extra-tp-margin">
-            <span class="trans-plus">(pour des raisons de confidentialité, je ne peut pas montrer beaucoup d'images)</span>
+            <span class="trans-plus">(pour des raisons de confidentialité, je ne peux pas montrer beaucoup d'images)</span>
         </div>
 
         <hr class="dashed">
